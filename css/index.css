@@ -1,0 +1,45 @@
+@media (max-width: @screen-md-max) {
+    .container{
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
+
+/* ----- BACKGROUND ----- */
+body {
+    background-image: url('../img/harley.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -10px;
+    background-attachment: fixed;
+}
+
+
+/* ----- BODY ----- */
+
+#header {
+  height: 150px;
+  margin-top: 0px;
+  margin-bottom: 0;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-attachment: fixed;
+}
+
+
+#header h1 {
+
+  font-family: "Trocchi", serif;
+  color: #3E2F1B;
+  font-size: 80px;
+  padding-top: 30px;
+}
+
+#header h2 {
+
+  font-family: "Trocchi", serif;
+  color: #644A26;
+  font-size: 20px;
+  padding-top: 20px;
+}
