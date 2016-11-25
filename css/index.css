@@ -208,3 +208,65 @@ nav {
     font-size: 0.65em;
   }
 }
+
+/* FONT SIZE SMALLER AGAIN */
+
+@media all and (max-width: 500px) {
+  #about {
+    font-size: 0.5em;
+  }
+}
+
+@media all and (max-width: 500px) {
+  #home {
+    font-size: 0.5em;
+  }
+}
+
+@media all and (max-width: 500px) {
+  #dropdown {
+    font-size: 0.5em;
+  }
+}
+
+@media all and (max-width: 500px) {
+  #contact {
+    font-size: 0.5em;
+  }
+}
+
+@media all and (max-width: 500px) {
+  #login {
+    font-size: 0.5em;
+  }
+}
+
+@media all and (max-width: 450px) {
+  #about {
+    font-size: 0.45em;
+  }
+}
+
+@media all and (max-width: 450px) {
+  #home {
+    font-size: 0.45em;
+  }
+}
+
+@media all and (max-width: 450px) {
+  #dropdown {
+    font-size: 0.45em;
+  }
+}
+
+@media all and (max-width: 450px) {
+  #contact {
+    font-size: 0.45em;
+  }
+}
+
+@media all and (max-width: 450px) {
+  #login {
+    font-size: 0.45em;
+  }
+}
