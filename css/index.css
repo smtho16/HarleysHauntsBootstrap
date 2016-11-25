@@ -80,3 +80,71 @@ body {
     font-size: 2.3em;
   }
 }
+<<<<<<< HEAD
+
+/* ----- NAVIGATION BAR ----- */
+
+/* ----- NAVIGATION BAR ----- */
+
+#nav {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #76C5CF;
+  background-size: cover;
+}
+
+#nav ul {
+  padding: 0;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+}
+
+#nav ul:after{
+  content: "";
+  clear: both;
+  display: inline-block;
+}
+
+#nav ul li {
+  float: left;
+  position: relative;
+}
+
+#nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-family: "Trocchi", serif;
+}
+
+#nav ul li:hover {
+  background: #63ACB6;
+}
+
+#nav ul li:hover a {
+  color: white;
+}
+
+#nav ul ul {
+  display: none;
+  background: #76C5CF;
+  position: absolute;
+  top: 100%;
+  width: 200px;
+}
+
+#nav ul li:hover > ul {
+  display: block;
+}
+
+#nav ul ul li {
+  float: left;
+  border-bottom: 1px solid white;
+}
+=======
+>>>>>>> origin/master
