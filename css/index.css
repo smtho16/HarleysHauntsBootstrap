@@ -32,7 +32,6 @@ body {
 
   font-family: "Trocchi", serif;
   color: #3E2F1B;
-  font-size: 80px;
   padding-top: 30px;
 }
 
@@ -42,4 +41,42 @@ body {
   color: #644A26;
   font-size: 20px;
   padding-top: 20px;
+}
+
+/* -- RESPONSIVE HEADER (need to add more) */
+
+@media all and (max-width: 2000px) {
+  #header h1 {
+    font-size: 5.7em;
+  }
+}
+
+@media all and (max-width: 1500px) {
+  #header h1 {
+    font-size: 5.0em;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  #header h1 {
+    font-size: 4.3em;
+  }
+}
+
+@media all and (max-width: 750px) {
+  #header h1 {
+    font-size: 3.7em;
+  }
+}
+
+@media all and (max-width: 700px) {
+  #header h1 {
+    font-size: 3.0em;
+  }
+}
+
+@media all and (max-width: 500px) {
+  #header h1 {
+    font-size: 2.3em;
+  }
 }
