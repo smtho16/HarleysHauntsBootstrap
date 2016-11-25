@@ -1,4 +1,27 @@
+$("#demo1").navgoco({
+caretHtml: '',
+accordion: false,
+openClass: 'open',
+save: true,
+cookie: {
+name: 'navgoco',
+expires: false,
+path: '/'
+},
+slide: {
+duration: 400,
+easing: 'swing'
+}
+});
 
+onClickAfter: function(e, submenu) {
+e.preventDefault();
+$('#demo1').find('li').removeClass('active');
+var li = $(this).parent();
+var lis = li.parents('li');
+li.addClass('active');
+lis.addClass('active');
+}
 
 /* ----- BACKGROUND ----- */
 body {
