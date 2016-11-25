@@ -9,13 +9,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
 
     <!-- import font "Trocchi" -->
     <style>
@@ -35,21 +35,29 @@
 
 <!-- ***** NAVIGATION BAR ***** -->
 
-<div id="nav">
-  <ul>
-    <li><a href="about.html"> About </a></li>
-    <li><a href="#"> Pet-Friendly Venues </a>
-      <ul>
-        <li><a href="cafes.html"> Cafes </a> </li>
-        <li><a href="restaurants.html"> Restaurants </a> </li>
-        <li><a href="pubsBars.html"> Pubs/Bars </a> </li>
-        <li><a href="shops.html"> Shops </a> </li>
-      </ul>
-    </li>
-    <li><a href="contact.html"> Contact </a></li>
-  </ul>
-</div>
+<nav id="nav" class="navbar navbar-inverse navbar-custom">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Pet-Friendly Venues<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Shops</a></li>
+          <li><a href="#">Cafes</a></li>
+          <li><a href="#">Pubs/Bars</a></li>
+          <li><a href="#">Restuarants</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
 
 
-  </body>
+
+</body>
 </html>
