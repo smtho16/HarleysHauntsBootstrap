@@ -99,3 +99,112 @@ nav {
           color: white;
     background: #63ACB6;
    }
+
+   .navbar-custom .navbar-nav .dropdown.open a:focus {
+    background-color: #63ACB6;
+}
+
+.navbar-custom .navbar-nav .dropdown.open li {
+  background-color: #63ACB6;
+}
+
+/* RESPONSIVE NAV */
+
+@media all and (max-width: 2000px) {
+  #about {
+    margin-left: 27em;
+  }
+}
+
+@media all and (max-width: 1300px) {
+  #about {
+    margin-left: 20em;
+  }
+}
+
+@media all and (max-width: 1100px) {
+  #about {
+    margin-left: 14em;
+  }
+}
+
+@media all and (max-width: 900px) {
+  #about {
+    margin-left: 6em;
+  }
+}
+
+@media all and (max-width: 750px) {
+  #about {
+    margin-left: 1em;
+  }
+}
+
+@media all and (max-width: 600px) {
+  #about {
+    margin-left: 1em;
+  }
+}
+/*  NAV --- FONT SIZE --- RESPONSIVE */
+
+@media all and (max-width: 650px) {
+  #about {
+    font-size: 0.8em;
+  }
+}
+
+@media all and (max-width: 650px) {
+  #home {
+    font-size: 0.8em;
+  }
+}
+
+@media all and (max-width: 650px) {
+  #dropdown {
+    font-size: 0.8em;
+  }
+}
+
+@media all and (max-width: 650px) {
+  #contact {
+    font-size: 0.8em;
+  }
+}
+
+@media all and (max-width: 650px) {
+  #login {
+    font-size: 0.8em;
+  }
+}
+
+/* FONT SIZE SMALLER */
+
+@media all and (max-width: 550px) {
+  #about {
+    font-size: 0.65em;
+  }
+}
+
+@media all and (max-width: 550px) {
+  #home {
+    font-size: 0.65em;
+  }
+}
+
+@media all and (max-width: 550px) {
+  #dropdown {
+    font-size: 0.65em;
+  }
+}
+
+@media all and (max-width: 550px) {
+  #contact {
+    font-size: 0.65em;
+  }
+}
+
+@media all and (max-width: 550px) {
+  #login {
+    font-size: 0.65em;
+  }
+}
