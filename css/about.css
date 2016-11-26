@@ -25,7 +25,7 @@ lis.addClass('active');
 
 /* ----- BACKGROUND ----- */
 body {
-    background-image: url('../img/harley.jpg');
+    background-image: url('../img/sky.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin: -10px;
@@ -295,4 +295,55 @@ body {
   #login {
     font-size: 0.45em;
   }
+}
+
+/* ----- CAROUSEL ----- */
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 50%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: auto;
+}
+
+#carouselcontainer {
+  background: rgba(118, 197, 207, 0.8);
+  box-shadow:0 4px 10px 4px white;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+#previous {
+  margin-left: 55px;
+  font-size: 0.6em;
+  font-family: "Trocchi";
+}
+
+#next {
+padding-left: 55px;
+  font-size: 0.6em;
+  font-family: "Trocchi";
+}
+
+#btn {
+  margin-right: 165px;
+}
+
+#caption {
+  background: rgba(255, 255, 255, 0.5);
+  color: #3E2F1B;
+  font-family: "Tocchi";
+  text-align: center;
+  height: 100px;
+}
+
+#caption p {
+  color: #3E2F1B;
+  font-family: "Tocchi";
+  text-align: center;
+}
+
+#listbox {
+  height: 34em;
 }
