@@ -58,7 +58,7 @@ body {
   font-family: "Trocchi", serif;
   color: #644A26;
   font-size: 20px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 /* -- RESPONSIVE HEADER (need to add more) */
@@ -104,7 +104,7 @@ body {
 
 nav {
   background-color: #76C5CF;
-  font-family: "Trocchi" serif;
+  font-family: "Trocchi";
 }
 
 .nav.navbar-nav li a {
