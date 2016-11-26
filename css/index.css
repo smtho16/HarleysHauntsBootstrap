@@ -58,7 +58,8 @@ body {
   font-family: "Trocchi", serif;
   color: #644A26;
   font-size: 20px;
-  padding-top: 20px;
+  padding-top: 10px;
+
 }
 
 /* -- RESPONSIVE HEADER (need to add more) */
@@ -104,7 +105,7 @@ body {
 
 nav {
   background-color: #76C5CF;
-  font-family: "Trocchi" serif;
+  font-family: "Trocchi";
 }
 
 .nav.navbar-nav li a {
@@ -114,6 +115,7 @@ nav {
 .navbar-custom .navbar-nav > li > a:hover,
 .navbar-custom .navbar-nav > li > a:focus {
     background-color: #63ACB6;
+
 }
 
   .navbar-custom .navbar-nav > .active > a,
@@ -128,8 +130,9 @@ nav {
 }
 
 .navbar-custom .navbar-nav .dropdown.open li {
-  background-color: #63ACB6;
+  background-color: #63ACB6 !important;
 }
+
 
 /* RESPONSIVE NAV */
 
