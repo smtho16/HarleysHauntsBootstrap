@@ -20,6 +20,7 @@
     <!-- import font "Trocchi" -->
     <style>
       @import url('https://fonts.googleapis.com/css?family=Trocchi');
+
     </style>
 
   </head>
@@ -57,7 +58,57 @@
   </div>
 </nav>
 
+<!-- ***** CAROUSEL ***** -->
+
+<div id="carouselcontainer" class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div id="listbox" class="carousel-inner" role="listbox">
+
+      <div  id="harley" class="item active">
+        <img src="img/harley3.jpg" alt="Harley" width="460" height="345">
+        <div id="caption" class="carousel-caption">
+          <h3>Harley</h3>
+          <p>(insert bio)</p>
+        </div>
+      </div>
+
+      <div id="steph" class="item">
+        <img src="img/steph.jpg" alt="Steph" width="460" height="345">
+        <div id="caption" class="carousel-caption">
+          <h3>Stephanie Thomas</h3>
+          <p>(insert bio)</p>
+        </div>
+      </div>
+
+      <div id="dev" class="item">
+        <img src="img/dev.jpg" alt="Dev" width="460" height="345">
+        <div id="caption" class="carousel-caption">
+          <h3>Devamsha Gunput</h3>
+          <p>(insert bio)</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span id="previous" class="sr-only">Previous</span>
+    </a>
+    <a id="btn" class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span id="next" class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
 
 
+<!-- ***** END ***** -->
 </body>
 </html>
