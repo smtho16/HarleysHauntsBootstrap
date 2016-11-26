@@ -59,7 +59,6 @@ body {
   color: #644A26;
   font-size: 20px;
   padding-top: 10px;
-
 }
 
 /* -- RESPONSIVE HEADER (need to add more) */
@@ -133,36 +132,46 @@ nav {
   background-color: #63ACB6 !important;
 }
 
+#login {
+  float: right;
+}
+
 
 /* RESPONSIVE NAV */
 
 @media all and (max-width: 2000px) {
   #about {
-    margin-left: 27em;
+    margin-left: 33em;
   }
 }
 
 @media all and (max-width: 1300px) {
   #about {
-    margin-left: 20em;
+    margin-left: 24em;
   }
 }
 
 @media all and (max-width: 1100px) {
   #about {
-    margin-left: 14em;
+    margin-left: 18em;
   }
 }
 
 @media all and (max-width: 900px) {
   #about {
-    margin-left: 6em;
+    margin-left: 9em;
   }
 }
 
 @media all and (max-width: 750px) {
   #about {
-    margin-left: 1em;
+    margin-left: 5em;
+  }
+}
+
+@media all and (max-width: 700px) {
+  #about {
+    margin-left: 3em;
   }
 }
 
@@ -171,6 +180,8 @@ nav {
     margin-left: 1em;
   }
 }
+
+
 /*  NAV --- FONT SIZE --- RESPONSIVE */
 
 @media all and (max-width: 650px) {
@@ -269,30 +280,30 @@ nav {
 
 @media all and (max-width: 450px) {
   #about {
-    font-size: 0.45em;
+    font-size: 0.40em;
   }
 }
 
 @media all and (max-width: 450px) {
   #home {
-    font-size: 0.45em;
+    font-size: 0.40em;
   }
 }
 
 @media all and (max-width: 450px) {
   #dropdown {
-    font-size: 0.45em;
+    font-size: 0.4em;
   }
 }
 
 @media all and (max-width: 450px) {
   #contact {
-    font-size: 0.45em;
+    font-size: 0.4em;
   }
 }
 
 @media all and (max-width: 450px) {
   #login {
-    font-size: 0.45em;
+    font-size: 0.4em;
   }
 }
