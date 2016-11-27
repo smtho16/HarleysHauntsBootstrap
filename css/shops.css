@@ -307,3 +307,106 @@ nav {
     font-size: 0.4em;
   }
 }
+
+/* ----- CAFE 52 CONTAINER ----- */
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 50%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: auto;
+}
+
+#cafecontainer {
+  background: rgba(118, 197, 207, 0.8);
+  box-shadow:0 4px 10px 4px white;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.nav-pills.center-pills {
+  background: rgba(255, 255, 255, 0.75);
+  font-family: "Trocchi";
+  padding : 5px 15px;
+}
+
+.nav-pills.center-pills a {
+  background: rgba(118, 197, 207, 1);
+  font-family: "Trocchi";
+  padding : 5px 15px;
+}
+
+.nav-pills.center-pills a:hover {
+  background: rgba(118, 197, 207, 0.5);
+  font-family: "Trocchi";
+  padding : 5px 15px;
+}
+
+#cafe52body h2 {
+  font-family: "Trocchi";
+  color: white !important;
+  text-align: center;
+}
+
+#mapinfo script {
+  padding-left: 100px;
+}
+
+/* MAP */
+
+#mapinfo {
+  height: 200px;
+  width: 500px;
+  margin-left: 220px;
+  margin-right: 0;
+  float: inherit;
+
+  clear: none;
+  text-align: center;
+}
+
+#map {
+  margin-left: 220px;
+}
+
+#address {
+  font-family: "Trocchi";
+  color: #3E2F1B;
+  padding-left: 40px;
+}
+
+#form {
+
+}
+
+.form-group {
+  display: flex;
+  padding-left: 50px;
+}
+
+.form-group > div {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+}
+
+#comments {
+  width: 800px;
+  padding-top: 15px;
+}
+
+#button {
+  margin-left: 390px;
+}
+
+#description {
+  font-family: "Trocchi";
+  padding: 5px;
+  color: #3E2F1B;
+  width: 485px;
+  margin-left: 220px;
+  border: solid #3E2F1B;;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.75);
+}
