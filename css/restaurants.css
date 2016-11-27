@@ -362,7 +362,7 @@ nav {
   margin-left: 220px;
   margin-right: 0;
   float: inherit;
-  
+
   clear: none;
   text-align: center;
 }
@@ -399,4 +399,15 @@ nav {
 
 #button {
   margin-left: 390px;
+}
+
+#description {
+  font-family: "Trocchi";
+  padding: 5px;
+  color: #3E2F1B;
+  width: 485px;
+  margin-left: 220px;
+  border: solid #3E2F1B;;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.75);
 }
